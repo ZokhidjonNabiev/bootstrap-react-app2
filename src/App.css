@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.slogan{
+    min-height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slogan h2{
+    font-size: 3.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slogan p {
+    font-size: 20px;
+    color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.container {
+    margin: 96px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.container .row{
+    column-gap: 1.5rem;
+    row-gap: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .row > div{
+    padding: 0;
+}
+/* .img img{
+    width: 100%;
+    min-height: 177px;
+    object-fit: cover;
+}
+
+.img h5{
+    font-weight: bolder;
+    font-size: 1.25rem;
+} */
+
+.fa-star{
+    color: rgb(255, 193, 7);
+}
+
+.sale-box{
+    position: relative;
+}
+
+.sale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.menu .menu-btn{
+    right: 150px;
+    
 }
